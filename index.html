@@ -6,55 +6,95 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PetCare</title>
   <link rel="stylesheet" href="css/style.css">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
 </head>
 <body>
-  <div class="container">
+  
     <header class="header">
-      <div class="header-wrapper">
-          <a href="index.html"class="logo-label">
+      <div class="container">
+      <div class="header__wrapper">
+          <a href="index.html"class="header__logo logo">
             <img src="/img/icons/logo.png" alt="Logo: PetCare">
-            <span>PetCare</span>
+            <span class="header__label">PetCare</span>
           </a>
         <!-- /.logo-label -->
-        <div class="nav">
-          <ul>
-            <li><a href="#"></a>Новости</li>
-            <li><a href="#"></a>О нас</li>
-            <li><a href="#"></a>Блог</li>
-            <li><a href="#"></a>Услуги</li>
-            <li><a href="#"></a>Контакты</li>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li class="header__item"><a href="#"class="header__link">Новости</a></li>
+            <li class="header__item"><a href="#"class="header__link">О нас</a></li>
+            <li class="header__item"><a href="#"class="header__link">Блог</a></li>
+            <li class="header__item"><a href="#"class="header__link">Услуги</a></li>
+            <li class="header__item"><a href="#"class="header__link">Контакты</a></li>
           </ul>
-        </div>
+        </nav>
         <!-- /.nav -->
-        <div class="social-link">
-          <a href="#"><img src="/img/social/insta.png" alt="icon:instagram"></a>
-          <a href="#"><img src="/img/social/telegram.png" alt="icon:telegram"></a>
-          <a href="#"><img src="/img/social/vk.png" alt="icon: vk"></a>
-        </div>
+        <ul class="social-link">
+          <li class="social-item">
+            <a href="#">
+              <img src="/img/social/insta.png" alt="icon:instagram">
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#"><img src="/img/social/telegram.png" alt="icon:telegram">
+            </a>
+          </li>
+          <li class="social-item">
+          <a href="#"><img src="/img/social/vk.png" alt="icon: vk"></a></li>
+        </ul>
         <!-- /.social-link -->
       </div>
       <!-- /.header-wrapper -->
+    </div>
     </header>
-    <h1>Test</h1>
-    <footer class="footer">
-      <div class="footer-wrapper">
-        <div class="contacts">
-          <a href="tel:+78009998877">8 (800) 999-88-77</a>
-          <a href="mailto:info@petcare.com">info@petcare.com</a>
-        </div>
-        <!-- /.contacts -->
-        <div class="copyright">
-          <span>©2021 PetCare. Все права защищены </span>
-        </div>
-        <!-- /.copyright -->
-        <div class="logo-label">
-          <img src="/img/icons/logo.png" alt="Logo: PetCare">
-          <span>PetCare</span>
-        </div>
-        <!-- /.logo-label -->
+    <section class="content">
+      <div class="container">
+        <div class="content__wrapper">
+          <div class="content__card">
+            <div class="content__description">
+              <h3>Сколько стоит <br>онлайн-консультация
+                с терапевтом? </h3>
+              <img src="img/arrow.svg" alt="figure: arrow">
+            </div>
+          </div>
+          <!-- /.content__article -->
+          <div class="content__card">
+            <div class="content__description">
+              <h3>Самые болезненные породы кошек: топ-5</h3>
+              <p>Среди кошачьих пород есть несколько, отличающихся слабым здоровьем.</p>
+            </div>
+              
+              <a href="#" class="content__link">Все статьи о кошках</a>
+            </div>
+          </div>
+          <!-- /.content__consultation -->
       </div>
-      <!-- /.footer-wrapper -->
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__contacts">
+            <a href="tel:+78009998877">8 (800) 999-88-77</a>
+            <a href="mailto:info@petcare.com">info@petcare.com</a>
+          </div>
+          <!-- /.contacts -->
+          <div class="footer__copyright">
+            <span>©2021 PetCare. Все права защищены </span>
+          </div>
+          <!-- /.copyright -->
+          <a href="index.html"class="footer__logo logo">
+            <img src="/img/icons/logo.png" alt="Logo: PetCare">
+            <span class="footer__label">PetCare</span>
+          </a>
+          <!-- /.logo -->
+        </div>
+        <!-- /.footer-wrapper -->
+      </div>
+      <!-- /.container -->
     </footer>
-  </div>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
